@@ -6,7 +6,7 @@ tags: ['docker', 'container', 'development']
 
 ## Dockerfile
 
-### キーワード
+### インストラクション
 
 #### FROM
 　FROMは作成するDockerイメージのベースとなるイメージを指定でいる。
@@ -38,7 +38,7 @@ ENV BUILD_ARG=${samplearg}
 　RUNの引数には実行したいコマンドをそのまま記述する。
 
 #### COPY
-　COPYはDockerを動作させているホストマシン上のファイルやディレクトリをDockerコンテナ内にコピーするためのキーワード。
+　COPYはDockerを動作させているホストマシン上のファイルやディレクトリをDockerコンテナ内にコピーするためのインストラクション。
 
 #### CMD
 　CMDはDockerコンテナとして実行する際に、コンテナ内で実行するプロセスを指定する。
@@ -132,11 +132,21 @@ docker image tag 元のイメージ名[:タグ名] 新しいイメージ名[:タ
 
 タグ名を省略時は`latest`
 
-## dockerイメージの公開
+## docker Hub へログイン
+
+```
+docker login [-u id] [-p パスワード]
+```
+
+オプションを省略した場合は対話式に進めることができる。ID&PASSを入力して認証する。
+
+## docker hub イメージの登録
 
 ```
 docker image push [option] リポジトリ名[:タグ名]
 ```
+
+ログイン済みであれば、自分のリポジトリにイメージを登録することができる。
 
 ## ポートフォワーディング
 
