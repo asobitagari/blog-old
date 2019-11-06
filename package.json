@@ -23,7 +23,9 @@
     "hexo-renderer-less": "^1.0.0",
     "hexo-renderer-marked": "^2.0.0",
     "hexo-renderer-stylus": "^1.1.0",
-    "hexo-server": "^1.0.0"
+    "hexo-server": "^1.0.0",
+    "constantinople": ">=3.1.1",
+    "clean-css": ">=4.1.11"
   },
   "devDependencies": {
     "hexo-renderer-jade": "^0.5.0"
