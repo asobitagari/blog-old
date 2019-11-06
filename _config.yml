@@ -95,6 +95,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 'git'
+  type: git
   repo: git@asb-github:asobitagari/asobitagari.github.io
   branch: master
