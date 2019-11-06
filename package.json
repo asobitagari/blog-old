@@ -6,13 +6,17 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
+    "BaD": "hexo deploy -g",
     "server": "hexo server"
   },
   "hexo": {
     "version": "4.0.0"
   },
   "dependencies": {
+    "clean-css": ">=4.1.11",
+    "constantinople": ">=3.1.1",
     "hexo": "^4.0.0",
+    "hexo-deployer-git": "^2.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-feed": "^2.0.0",
@@ -23,9 +27,7 @@
     "hexo-renderer-less": "^1.0.0",
     "hexo-renderer-marked": "^2.0.0",
     "hexo-renderer-stylus": "^1.1.0",
-    "hexo-server": "^1.0.0",
-    "constantinople": ">=3.1.1",
-    "clean-css": ">=4.1.11"
+    "hexo-server": "^1.0.0"
   },
   "devDependencies": {
     "hexo-renderer-jade": "^0.5.0"
