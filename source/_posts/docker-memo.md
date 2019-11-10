@@ -58,11 +58,19 @@ docker image build -t イメージ[:タグ名] Dockerfileまでのパス
 ## イメージからコンテナの実行
 
 ```
-docker [container] run [-d] イメージ名[/追加のパス]:タグ名
+docker [container] run [-d] [-i] [-t] [-rm] [-v ホスト側ディレクトリ:コンテナ側ディレクトリ] イメージ名[/追加のパス]:タグ名
 ```
 
--dオプションをつけないとフォアグランドで実行されてしまう。-dをつけて起動した場合はコンテナIDが標準出力に出力される。
+`-d`オプションをつけないとフォアグランドで実行されてしまう。-dをつけて起動した場合はコンテナIDが標準出力に出力される。
 containerは省略可能だが、最近の風潮ではタイプが長くなるがつけて記述するほうが好まれるらしい。
+
+`-i`起動後にコンテナの標準入力との結びつきを維持する。
+
+`-t`疑似端末を有効にする。大抵の場合`-i`と同時に用いられ、同時指定の`-it`が省略形として存在する。コンテナ起動後に、疑似端末が有効となり標準入力からコマンドを実行できるようになる。
+
+`-rm`コンテナの終了時にコンテナを破棄する。
+
+`-v`ホストとコンテナ間でディレクトリやファイルの共有を行う。
 
 ### そのほかオプション
 
@@ -83,12 +91,12 @@ docker ps
 ```
 docker container ls --filter "ancestor=[イメージ名]" [-q]
 ```
--q でヘッダーなし。
+-q でコンテナIDのみの抽出
 
 ## 起動中のコンテナの停止
 
 ```
-docker container stop コンテナID
+docker container stop コンテナID/コンテナ名
 ```
 
 `docker container ls`と組み合わせることができる。
@@ -96,6 +104,20 @@ docker container stop コンテナID
 ```
 docker container stop $(docker container ls --filter "ancestor=[イメージ名" -q])
 ```
+
+## 停止中のコンテナの再起動
+
+```
+docker container restart コンテナID/コンテナ名
+```
+
+## 停止中のコンテナの破棄
+
+```
+docker container rm [-f] コンテナID/コンテナ名
+```
+
+`-f`オプションで実行中のコンテナの削除も可能。
 
 ## dockerイメージの検索
 
@@ -143,7 +165,7 @@ docker login [-u id] [-p パスワード]
 ## docker hub イメージの登録
 
 ```
-docker image push [option] リポジトリ名[:タグ名]
+docker image push [options] リポジトリ名[:タグ名]
 ```
 
 ログイン済みであれば、自分のリポジトリにイメージを登録することができる。
@@ -155,7 +177,3 @@ docker image push [option] リポジトリ名[:タグ名]
 ```
 docker container run -d -p [ホストポート]:コンテナポート イメージの指定
 ```
-
-イメージの指定の仕方はコンテナの起動の項目を参照。
-ホスト側のポートは省略することができ、省略時は自動で空いているエフェメラルポートが割り当てられる。
-割り当てられたポートは`docker container ls`で表示される`ports`の項目で確認できる。
