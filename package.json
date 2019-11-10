@@ -7,7 +7,8 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "BaD": "hexo deploy -g",
-    "server": "hexo server"
+    "server": "hexo server",
+    "push": "git push s master"
   },
   "hexo": {
     "version": "4.0.0"
