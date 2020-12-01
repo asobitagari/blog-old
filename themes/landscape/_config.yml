@@ -28,7 +28,8 @@ archive_type: 'monthly'
 show_count: false
 
 # Miscellaneous
-google_analytics: GTM-5FTNMLH
+google_tag: GTM-5FTNMLH
+google_analytics: 
 gauges_analytics:
 favicon: /favicon/favicon.png
 twitter:
