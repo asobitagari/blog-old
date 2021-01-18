@@ -5,11 +5,11 @@
 # Site
 title: 遊びたがりブログ
 subtitle: ''
-description: ''
-keywords:
+description: 'プログラミングやゲームについて、遊ぶように学べる情報を配信しています。'
+keywords: Programming,php,docker,go,golang,vscode
 author: ざきさん
 language: ja
-timezone: 
+timezone: Asia/Tokyo
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
