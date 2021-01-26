@@ -3,6 +3,12 @@
     <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
     <%- partial('post/category') %>
   </div>
+  <% if (!index){ %>
+    <div id="im-61fab4b89a7e4245919b33acb858e708">
+      <script async src="https://imp-adedge.i-mobile.co.jp/script/v1/spot.js"></script>
+      <script>(window.adsbyimobile=window.adsbyimobile||[]).push({pid:21487,mid:530652,asid:1732043,type:"banner",display:"inline",elementid:"im-61fab4b89a7e4245919b33acb858e708"})</script>
+    </div>
+  <% } %>
   <div class="article-inner">
     <%- partial('post/gallery') %>
     <% if (post.link || post.title){ %>
