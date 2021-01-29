@@ -54,4 +54,4 @@ tags: ['英会話', 'オンラインレッスン', 'オンライン英会話']
 
 テストを受けた直後はむちゃくちゃ委縮して続けられないんじゃないかと思いましたが、トレーニングの幅の広さと事前事後の学習の後押しなどのおかげで、超初心者コースが終わった後は何を受けようかなどと考えられるくらい楽しめています。また、その会話外の学習量がそれなりにあるため、一日何回も受けるのは初心者にはむしろ効率的ではないのかなと感じましたので、お試し期間後は通常プランに戻そうと思いました。
 
-<a href="//af.moshimo.com/af/c/click?a_id=2406885&p_id=3096&pc_id=7158&pl_id=40612&guid=ON" rel="nofollow"><img src="//image.moshimo.com/af-img/1881/000000040612.png" width="400" height="300" style="border:none;"></a><img src="//i.moshimo.com/af/i/impression?a_id=2406885&p_id=3096&pc_id=7158&pl_id=40612" width="1" height="1" style="border:none;">
+<a href="//af.moshimo.com/af/c/click?a_id=2406909&p_id=2409&pc_id=5246&pl_id=31566&guid=ON" rel="nofollow"><img src="//image.moshimo.com/af-img/1881/000000031566.png" width="936" height="120" style="border:none;"></a><img src="//i.moshimo.com/af/i/impression?a_id=2406909&p_id=2409&pc_id=5246&pl_id=31566" width="1" height="1" style="border:none;">

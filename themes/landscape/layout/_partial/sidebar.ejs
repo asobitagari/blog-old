@@ -1,12 +1,21 @@
 <aside id="sidebar"<% if (theme.sidebar === 'bottom'){ %> class="outer"<% } %>>
+  <div class="widget-wrap">
+    <!-- admax -->
+    <script src="https://adm.shinobi.jp/s/a761b3cad12e0f7c90c96f504b1e405c"></script>
+    <!-- admax -->
+  </div>
   <% theme.widgets.forEach(function(widget){ %>
     <%- partial('_widget/' + widget) %>
   <% }) %>
-  <!-- MAF Rakuten Widget FROM HERE -->
-  <script type="text/javascript">MafRakutenWidgetParam=function() { return{ size:'250x250',design:'slide',recommend:'on',auto_mode:'on',a_id:'2408397', border:'off'};};</script><script type="text/javascript" src="//image.moshimo.com/static/publish/af/rakuten/widget.js"></script>
-  <!-- MAF Rakuten Widget TO HERE -->
-  <div id="im-b90de6b563c54d17bfceefbaa47145a4">
-    <script async src="https://imp-adedge.i-mobile.co.jp/script/v1/spot.js"></script>
-    <script>(window.adsbyimobile=window.adsbyimobile||[]).push({pid:21487,mid:530652,asid:1732222,type:"banner",display:"inline",elementid:"im-b90de6b563c54d17bfceefbaa47145a4"})</script>
+  <div class="widget-wrap">
+    <!-- MAF Rakuten Widget FROM HERE -->
+    <script type="text/javascript">MafRakutenWidgetParam=function() { return{ size:'250x250',design:'slide',recommend:'on',auto_mode:'on',a_id:'2408397', border:'off'};};</script><script type="text/javascript" src="//image.moshimo.com/static/publish/af/rakuten/widget.js"></script>
+    <!-- MAF Rakuten Widget TO HERE -->
+  </div>
+  <div class="widget-wrap">
+    <div id="im-b90de6b563c54d17bfceefbaa47145a4">
+      <script async src="https://imp-adedge.i-mobile.co.jp/script/v1/spot.js"></script>
+      <script>(window.adsbyimobile=window.adsbyimobile||[]).push({pid:21487,mid:530652,asid:1732222,type:"banner",display:"inline",elementid:"im-b90de6b563c54d17bfceefbaa47145a4"})</script>
+    </div>
   </div>
 </aside>
