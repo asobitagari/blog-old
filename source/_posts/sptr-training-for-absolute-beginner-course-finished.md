@@ -45,4 +45,4 @@ date: 2021-02-07 02:00:51
 
 超初心者向けトレーニングコースが終わったので、他のトレーニングを既に受けてみたのですが、その感想はまた別に書いておきたいと思います。
 
-<a href="//af.moshimo.com/af/c/click?a_id=2406909&p_id=2409&pc_id=5246&pl_id=31566&guid=ON" rel="nofollow"><img src="//image.moshimo.com/af-img/1881/000000031566.png" width="936" height="120" style="border:none;"></a><img src="//i.moshimo.com/af/i/impression?a_id=2406909&p_id=2409&pc_id=5246&pl_id=31566" width="1" height="1" style="border:none;">
+<a href="//af.moshimo.com/af/c/click?a_id=2406909&p_id=2409&pc_id=5246&pl_id=31573&guid=ON" rel="nofollow"><img src="//image.moshimo.com/af-img/1881/000000031573.png" width="936" height="120" style="border:none;"></a><img src="//i.moshimo.com/af/i/impression?a_id=2406909&p_id=2409&pc_id=5246&pl_id=31573" width="1" height="1" style="border:none;">
