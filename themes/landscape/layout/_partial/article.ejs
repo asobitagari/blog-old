@@ -1,12 +1,10 @@
 <article id="<%= post.layout %>-<%= post.slug %>" class="article article-type-<%= post.layout %>" itemscope itemprop="blogPost">
+  <!-- admax -->
+  <script src="https://adm.shinobi.jp/s/12131bb3b88e69a6c92fea974e06ff74"></script>
+  <!-- admax -->
   <div class="article-meta">
     <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
     <%- partial('post/category') %>
-  </div>
-  <div>
-    <!-- admax -->
-    <script src="https://adm.shinobi.jp/s/12131bb3b88e69a6c92fea974e06ff74"></script>
-    <!-- admax -->
   </div>
   <div class="article-inner">
     <%- partial('post/gallery') %>
