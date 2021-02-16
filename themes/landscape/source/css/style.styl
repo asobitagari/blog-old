@@ -32,12 +32,46 @@ body
 
 .outer
   clearfix()
-  max-width: (column-width + gutter-width) * columns + gutter-width
-  margin: 0 auto
-  padding: 0 gutter-width
+  @media mq-normal
+    width: 1068px
+    margin: 0 auto
+    padding: 0 20px
+  @media mq-small-pc
+    width: 708px
+    margin: 0 auto
+    padding: 0 20px
 
 .inner
-  column(columns)
+  @media mq-normal
+    display: inline
+    float: left
+    width: 1068px
+    margin: 0 10px
+  @media mq-small-pc
+    display: inline
+    float: left
+    width: 708px
+    margin: 0 10px
+
+.side-big-banner
+  @media mq-normal
+    display: inline
+  @media mq-small-pc
+    display: none
+  @media mq-tablet
+    display: none
+  @media mq-mobile
+    display: none
+
+.side-small-banner
+  @media mq-normal
+    display: none
+  @media mq-small-pc
+    display: inline
+  @media mq-tablet
+    display: none
+  @media mq-mobile
+    display: none
 
 .left, .alignleft
   float: left
@@ -69,7 +103,34 @@ body
 if sidebar and sidebar isnt bottom
   #main
     @media mq-normal
-      column(main-column)
+      display: inline
+      float: left
+      width: 728px
+      margin: 0 10px
+    @media mq-small-pc
+      display: inline
+      float: left
+      width: 468px
+      margin: 0 10px
+  .long-banner
+    @media mq-small-pc
+      display: none
+    @media mq-tablet
+      display: none
+    @media mq-mobile
+      display: none
+  .pc-banner
+    @media mq-normal
+      display: none
+    @media mq-tablet
+      display: none
+    @media mq-mobile
+      display: none
+  .tablet-banner
+    @media mq-normal
+      display: none
+    @media mq-small-pc
+      display: none
 
 if sidebar is left
   @media mq-normal
