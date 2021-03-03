@@ -1,9 +1,4 @@
 <aside id="sidebar"<% if (theme.sidebar === 'bottom'){ %> class="outer"<% } %>>
-  <div class="widget-wrap">
-    <!-- admax -->
-    <script src="https://adm.shinobi.jp/s/b6376bdbfa86108abed40651183e1f0f"></script>
-    <!-- admax -->
-  </div>
   <% theme.widgets.forEach(function(widget){ %>
     <%- partial('_widget/' + widget) %>
   <% }) %>
@@ -17,5 +12,10 @@
       <script async src="https://imp-adedge.i-mobile.co.jp/script/v1/spot.js"></script>
       <script>(window.adsbyimobile=window.adsbyimobile||[]).push({pid:21487,mid:530652,asid:1735260,type:"banner",display:"inline",elementid:"im-bd249578155142d09e95c73772b14322"})</script>
     </div>
+  </div>
+  <div class="widget-wrap">
+    <!-- admax -->
+    <script src="https://adm.shinobi.jp/s/b6376bdbfa86108abed40651183e1f0f"></script>
+    <!-- admax -->
   </div>
 </aside>
