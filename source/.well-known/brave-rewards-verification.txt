@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: asobitagari.xyz
+Token: 2049ad220c4ef08bebd78564d3f86bca1eabd774fe3c0b55d9100cacd4b83bbc
