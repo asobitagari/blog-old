@@ -11,12 +11,12 @@
     "push": "git push s master"
   },
   "hexo": {
-    "version": "5.2.0"
+    "version": "6.3.0"
   },
   "dependencies": {
     "clean-css": "^5.1.0",
     "constantinople": ">=4.0.1",
-    "hexo": "^5.4.0",
+    "hexo": "^6.3.0",
     "hexo-deployer-git": "^3.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
